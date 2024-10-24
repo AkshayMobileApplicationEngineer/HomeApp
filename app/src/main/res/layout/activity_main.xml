@@ -1,16 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:background="@color/white">
 
-    <FrameLayout
-        android:id="@+id/fragment_container"
-        android:background="@color/white"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+    <Button
+        android:id="@+id/buttonShowTooltip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Tooltip"
+        android:layout_centerInParent="true"
+        android:padding="16dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:elevation="4dp"
+        android:layout_margin="16dp"
+        app:cornerRadius="8dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click me for tooltip"
+        android:layout_toRightOf="@id/buttonShowTooltip"
+        android:layout_marginStart="16dp"
+        android:layout_centerVertical="true"
+        android:textSize="18sp"
+        android:background="@color/colorAccent"
+        android:textColor="@android:color/white"
+        android:padding="8dp"
+        android:elevation="2dp"
+        android:layout_marginTop="4dp"
+        app:cornerRadius="4dp" />
+
+
+    <Button
+        android:id="@+id/changeActivty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello"/>
+
+    <Button
+        android:id="@+id/changeActivtyid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:text="Boollll"/>
+
 
 </RelativeLayout>

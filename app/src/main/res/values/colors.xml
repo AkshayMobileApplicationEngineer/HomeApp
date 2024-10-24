@@ -2,4 +2,9 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+<color name="colorPrimary">#6200EE</color> <!-- A purple shade -->
+<color name="colorAccent">#03DAC5</color> <!-- A teal shade -->
+    <color name="white_875">#E20E43</color>
+
 </resources>
